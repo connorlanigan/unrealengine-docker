@@ -7,4 +7,4 @@ rm -rf output/
 mkdir -p output
 
 # Run the compilation process.
-docker run -ti --rm -v $PWD/output:/opt/ue4 -w /opt/ue4 connorlanigan/unrealengine
+docker run -ti --rm -v $PWD/output:/opt/ue4 -w /opt/ue4 connorlanigan/unrealengine-docker
