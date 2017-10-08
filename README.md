@@ -6,6 +6,14 @@ This project allows you to compile Unreal Engine on your local Linux machine wit
 
 It follows the steps listed in [https://wiki.unrealengine.com/Building_On_Linux].
 
+
+## How to use it
+
+You need to have `docker` and `bash` installed.
+Then, run `compile.sh`.
+
+
+
 ## What this project DOES
 
 * download the Unreal Engine source code
@@ -13,7 +21,8 @@ It follows the steps listed in [https://wiki.unrealengine.com/Building_On_Linux]
 * compile the engine (including the editor and other binaries)
 * delete the container afterwards
 
-## What this project does NOT do
+
+## What this project DOESN'T
 
 * get you authentication to the source code repository
 * clean up the source code or intermediate compilation files
